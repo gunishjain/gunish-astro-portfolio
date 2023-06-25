@@ -33,23 +33,25 @@ import HorizontalCardNew from "../components/HorizontalCardNew.astro";
       <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
     </div>
 
+    <HorizontalCard
+    title="Recipe Fetcher Application"
+    img="/projects_img/food-mvvm.png"
+    desc="Simple Android Application which fetches recipes from an API and displays it with the option to save,search and get details"
+    gitUrl="https://github.com/gunishjain/FoodMVVM"
+    badge="NEW"
+  />
+    <div class="divider my-0"></div>
+
+
     <HorizontalCardNew
       title="Expense Tracker"
       img="/projects_img/expense.png"
       desc="Expense Tracking application which allows to add expenses, delete them and store them using local storage. It is also demonstrating the use of Redux for managing states."
       url="https://gunish-expense-tracker.netlify.app/"
       gitUrl="https://github.com/gunishjain/ExpenseTracker"
-      badge="NEW"
+  
     />
-    <div class="divider my-0"></div>
-    <HorizontalCardNew
-    title="E-Commerce Product Display"
-    img="/projects_img/shopkart.png"
-    desc="Simple E-Commerce Product Display page, fetching data from API with state management and middleware implementation."
-    url="https://shopkart-redux.netlify.app/"
-    gitUrl="https://github.com/gunishjain/React-Redux-Ecommerce-Project-"
-
-  />
+   
     <div class="divider my-0"></div>
     <HorizontalCard
     title="Social Media Application"

@@ -5,6 +5,34 @@ import HorizontalCardNew from "../components/HorizontalCardNew.astro";
 ---
 
 <BaseLayout title = "Projects">
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Android Projects</div>
+  </div>
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Recipe Fetcher Application"
+    img="/projects_img/food-mvvm.png"
+    desc="Simple Android Application which fetches recipes from an API and displays it with the option to save,search and get details"
+    url="https://github.com/gunishjain/FoodMVVM"
+  />
+
+  <HorizontalCard
+    title="Social Media Application"
+    img="/projects_img/socialMedia.png"
+    desc="Social Media application which allows users to register account, Post pictures, Like,Edit Profile, View Feeds just like Instagram."
+    url="https://github.com/gunishjain/SocialMedia"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Zendora Wellness Application"
+    img="/projects_img/zendora-new.png"
+    desc="Wellness and Mindfulness Application which provides music based on mood and breathing exercises"
+    url="https://github.com/gunishjain/Zendora"
+  />
+  
   <div>
     <div class="text-3xl w-full font-bold mb-5">React Projects</div>
   </div>
@@ -51,23 +79,4 @@ import HorizontalCardNew from "../components/HorizontalCardNew.astro";
       url="https://github.com/gunishjain/TodoList-using-JS"
     />
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Android Projects</div>
-  </div>
-
-  <HorizontalCard
-    title="Social Media Application"
-    img="/projects_img/socialMedia.png"
-    desc="Social Media application which allows users to register account, Post pictures, Like,Edit Profile, View Feeds just like Instagram."
-    url="https://github.com/gunishjain/SocialMedia"
-  />
-
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Zendora Wellness Application"
-    img="/projects_img/zendora-new.png"
-    desc="Wellness and Mindfulness Application which provides music based on mood and breathing exercises"
-    url="https://github.com/gunishjain/Zendora"
-  />
- 
 </BaseLayout>
